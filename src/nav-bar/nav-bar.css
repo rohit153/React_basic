@@ -1,0 +1,45 @@
+.custom-navbar > .container,
+.custom-navbar > .container-fluid,
+.custom-navbar > .container-lg,
+.custom-navbar > .container-md,
+.custom-navbar > .container-sm,
+.custom-navbar > .container-xl,
+.custom-navbar > .container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: blanchedalmond;
+
+}
+.navbar {
+    --bs-navbar-padding-x: 1;
+}
+
+.custom-navbar .navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: -3px 10%;
+}
+
+
+.custom-navbar .nav-link {
+    color: #181A1CFF; /* Custom link color */
+    font-weight: bold; /* Bold text */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #181A1CFF; /* Darker color on hover */
+}
+
+.custom-navbar .form-control {
+    border: 2px solid #181A1CFF; /* Custom border for search input */
+}
+
+.custom-navbar .btn-outline-success {
+    border: 2px solid #181A1CFF; /* Custom border for search button */
+}
